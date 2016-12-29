@@ -6,7 +6,7 @@ The suitability of land for agriculture `(Rammankutty, Foley, Norman, and McSwee
 
 In light of the importance of pre-industrial population density in the subsequent course of economic development, and the instrumental role played by caloric yield in sustaining and supporting population growth, it is rather apparent that this commonly used index is not well designed for properly capturing the effect of the suitability of land for agriculture on economic development.
 
-`Galor and Özak (2014) <https://ideas.repec.org/p/smu/ecowpa/1407.html>`_ rectify this deficiency and introduce a novel index of land suitability:  “The Caloric Suitability Indices” (CSI) that capture the variation in potential crop yield across the globe, as measured in calories per hectare per year.  Moreover, in light of the expansion in the set of crops that are available for cultivation in the course of the Columbian Exchange, the CSI indices provide a distinct measure for caloric suitability for the pre-1500 and the post 1500 era.  
+`Galor and Özak (2016) <http://dx.doi.org/10.1257/aer.20150020>`_ rectify this deficiency and introduce a novel index of land suitability:  “The Caloric Suitability Indices” (CSI) that capture the variation in potential crop yield across the globe, as measured in calories per hectare per year.  Moreover, in light of the expansion in the set of crops that are available for cultivation in the course of the Columbian Exchange, the CSI indices provide a distinct measure for caloric suitability for the pre-1500 and the post 1500 era.  
 The CSI indices provide fours estimates of caloric suitability for each cell of size 5′× 5´ in the world:
 
 1.	The maximum potential caloric yield attainable given the set of crops that are suitable for cultivation in the pre-1500 period.
@@ -14,7 +14,7 @@ The CSI indices provide fours estimates of caloric suitability for each cell of 
 3.	The average potential yields within each cell attainable given the set of crops that are suitable for cultivation in the pre-1500 period.
 4.	The average potential yields within each cell attainable given the set of crops that are suitable for cultivation in the post-1500 period.
 
-The **Caloric Suitability Indices** measure the caloric production potential based on agriculture for the Pre-1500CE and Post-1500CE eras as constructed by `Galor and Özak (2014) <https://ideas.repec.org/p/smu/ecowpa/1407.html>`_. The data can be used to assess or account for the exogenous effect of agricultural potential on various economic and social outcomes. An `IPython notebook <https://github.com/ozak/Caloric-Suitability-Index/blob/master/notebooks/Caloric%20and%20Agricultural%20Suitability.ipynb>`_ is included to show how it can be used and also compares it with another measure of agricultural suitability. The data is provided as a service to the academic research community (see license for permitted uses). 
+The **Caloric Suitability Indices** measure the caloric production potential based on agriculture for the Pre-1500CE and Post-1500CE eras as constructed by `Galor and Özak (2016) <http://dx.doi.org/10.1257/aer.20150020>`_. The data can be used to assess or account for the exogenous effect of agricultural potential on various economic and social outcomes. An `IPython notebook <https://github.com/ozak/Caloric-Suitability-Index/blob/master/notebooks/Caloric%20and%20Agricultural%20Suitability.ipynb>`_ is included to show how it can be used and also compares it with another measure of agricultural suitability. The data is provided as a service to the academic research community (see license for permitted uses). 
 
 ************************************************
 Download Options for Caloric Suitability Indices
@@ -48,6 +48,12 @@ Average and Maximum Caloric Suitability
     * `Stata Format <https://raw.githubusercontent.com/ozak/Caloric-Suitability-Index/master/data/USStates/US_States_CSI.dta>`_
     * `CSV Format <https://raw.githubusercontent.com/ozak/Caloric-Suitability-Index/master/data/USStates/US_States_CSI.csv>`_
 
+================================================
+Caloric Suitability, Growth Cycles and Returns 
+================================================
+
+* `All files (zip) <https://drive.google.com/open?id=0By-h7HPv1NhVMG1YNmVvaWlWTm8>`_: Archive contains data on pre- and post-1500CE CSI, growth cycle and daily returns as well as their changes due to the Columbian Exchange. This is the original data used in `Galor and Özak (2016) <http://dx.doi.org/10.1257/aer.20150020>`_. The only difference with the CSI rasters above is the constrain imposed by availability of growth cycle data, which constrains the set of crops.
+
 ===========================================
 Plow Potential based on Caloric Suitability
 ===========================================
@@ -72,7 +78,7 @@ If you use the data, please cite:
 Additional Information
 ======================
 
-`Galor and Özak (2014) <https://ideas.repec.org/p/smu/ecowpa/1407.html>`_ introduce novel measures of potential crop yield measured in calories for the pre-industrial and modern eras. In particular, for each cell of size 5′× 5´ in the world, they estimate the maximum caloric yield and the growth cycle attainable given the set of crops available before and after the Columbian Exchange. Using the same methodology, additional Caloric Suitability Indices (CSI) are introduced here based on the average and maximum caloric yields attainable given the crops available before and after the Columbian Exchange.
+`Galor and Özak (2016) <http://dx.doi.org/10.1257/aer.20150020>`_ introduce novel measures of potential crop yield measured in calories for the pre-industrial and modern eras. In particular, for each cell of size 5′× 5´ in the world, they estimate the maximum caloric yield and the growth cycle attainable given the set of crops available before and after the Columbian Exchange. Using the same methodology, additional Caloric Suitability Indices (CSI) are introduced here based on the average and maximum caloric yields attainable given the crops available before and after the Columbian Exchange.
 
 These historical measures are constructed based on data from the `Global Agro-Ecological Zones (GAEZ) <http://http://gaez.fao.org/>`_ project of the Food and Agriculture Organization (FAO). The GAEZ project supplies global estimates of crop yield and crop growth cycle for 48 crops in grids with cells size of 5′× 5´ (i.e., approximately :math:`100 km^2`). 
 
@@ -86,7 +92,7 @@ The FAO dataset provides for each cell in the agro-climatic grid the potential y
 
 In order to better capture the nutritional differences across crops, and thus to ensure comparability in the measure of crop yield, the yield of each crop in the GAEZ data (measured in tons, per hectare, per year) is converted into caloric return (measured in millions of kilo calories, per hectare, per year). This conversion is based on the caloric content of crops, as provided by the `United States Department of Agriculture Nutrient Database for Standard Reference <http://www.ars.usda.gov/Services/docs.htm?docid=23635>`_. Using the estimates of the caloric content for each crop in the GAEZ data (measured in kilo calories per 1g), a comparable measure of crop yield (in millions of kilo calories, per hectare, per year) is constructed for each crop. 
 
-Based on these estimates `Galor and Özak (2014) <https://ideas.repec.org/p/smu/ecowpa/1407.html>`_ construct the maximum potential caloric yield estimate they use in their paper. Here varios additional indices of caloric suitability are constructed and presented. First, for each cell the average caloric yield across all available crops pre- and post-1500CE is computed. Second, the analysis assigns to each cell the highest potential yield among the available crops pre- and post-1500CE. Additionally, for each caloric index raster the same index is constructed including and excluding cells where no calories can be produced or for averages the crops without caloric output are excluded. 
+Based on these estimates `Galor and Özak (2016) <http://dx.doi.org/10.1257/aer.20150020>`_ construct the maximum potential caloric yield estimate they use in their paper. Here varios additional indices of caloric suitability are constructed and presented. First, for each cell the average caloric yield across all available crops pre- and post-1500CE is computed. Second, the analysis assigns to each cell the highest potential yield among the available crops pre- and post-1500CE. Additionally, for each caloric index raster the same index is constructed including and excluding cells where no calories can be produced or for averages the crops without caloric output are excluded. 
 
 Thus, the research constructs for each type of index, namely *Average* and *Maximal* Caloric Suitability, four sets of grids: 
     1. Caloric Suitability pre-1500CE (without zeros)
@@ -106,20 +112,29 @@ Find a bug? Report it via github issues by providing
 - information on your environment: versions of python, gdal and numpy and system memory
 
 
+Copyright 
+---------
+
+This data is provided under `Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License <https://creativecommons.org/licenses/by-sa/4.0/>`_. |Copyright|_
+
+    |SMU|_ |Brown|_
 
 
-|SMU|_ 
-|Brown|_
-
-
-.. |SMU| image:: https://github.com/ozak/Caloric-Suitability-Index/raw/master/pics/Logo-SMU-World.gif
-                    :height: 200px
-                    :width: 200 px
-                    :scale: 25 %
+.. |SMU| image:: https://github.com/ozak/Caloric-Suitability-Index/raw/master/pics/SMUlogowWordmarkRB.jpg
+                    :height: 400px
+                    :width: 1100 px
+                    :scale: 20 %
 .. _SMU: http://omerozak.com
 
-.. |Brown| image:: https://github.com/ozak/Caloric-Suitability-Index/raw/master/pics/brown-logo.png
-                    :height: 100px
-                    :width: 200 px
+.. |Brown| image:: https://github.com/ozak/Caloric-Suitability-Index/raw/master/pics/Brown-Logo_2016_2.png
+                    :height: 200px
+                    :width: 400 px
                     :scale: 50 %
-.. _Brown: http://www.econ.brown.edu/fac/Oded_Galor/
+.. _Brown: http://odedgalor.virb.com/
+
+.. |Copyright| image:: http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg
+                    :height: 45px
+                    :width: 900 px
+                    :scale: 60 %
+.. _Copyright: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
