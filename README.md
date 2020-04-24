@@ -30,6 +30,12 @@ The **Caloric Suitability Indices** can be downloaded as a zip file, or individu
     * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVR2dDUm5fU2lMN2c)
     * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVUzVDTXBST3d4YlE)
 
+* Pre-1500CE (Exclude Asian Varieties in Africa):
+    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVemtGVHNfTDFzNmc)
+    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVYmtaV1g3X0VTV3c)
+    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVbkg4RjBVWFdLV0E)
+    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVTXlCaThJaUJBWTQ)
+
 * Post-1500CE:
     * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVT05GNGtaZk13S2M)
     * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVcHVJcmgtb09FTXM)
