@@ -51,12 +51,12 @@ The **Caloric Suitability Indices** can be downloaded as a zip file, or individu
 
 ## Plow Potential based on Caloric Suitability
 
-* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVVVVuVVEwVEh1VzQ): Archive contains data on pre- and post-1500CE plow positive CSI, plow negative CSI, plow potential based on CSI as well as their changes due to the Columbian Exchange.
+* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVTkFqdlNCdkFJVUU): Archive contains data on pre- and post-1500CE plow positive CSI, plow negative CSI, plow potential based on CSI as well as their changes due to the Columbian Exchange.
 
 
 ## Caloric Suitability for Individual Crops
 
-* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVS1I3UXVURExCNjA): Archive contains data on caloric suitability for each crop under low, medium and high input levels, as well as under rain fed and irrigation.
+* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVOEJHcF92LVE1Z3M): Archive contains data on caloric suitability for each crop under low, medium and high input levels, as well as under rain fed and irrigation.
 
 If you use the data, please cite: 
 
