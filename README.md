@@ -22,7 +22,7 @@ The **Caloric Suitability Indices** can be downloaded as a zip file, or individu
 
 ## Average and Maximum Caloric Suitability
 
-* [All files (zip)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVM1g5aW81TzVRWjQ): The zipfile contains additional versions not downloadable individually. In particular, it includes CSI excluding Asian crop varieties in Africa pre-1500CE. Additionally it includes rasters for the changes in CSI due to the Columbian Exchange.
+* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVc3RNd010Z09EQVE): The zipfile contains additional versions not downloadable individually. In particular, it includes CSI excluding Asian crop varieties in Africa pre-1500CE. Additionally it includes rasters for the changes in CSI due to the Columbian Exchange.
 
 * Pre-1500CE:
     * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVeEhsRmdRWkFJX2M)
