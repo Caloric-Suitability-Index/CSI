@@ -18,29 +18,56 @@ The **Caloric Suitability Indices** [(Galor and Özak, 2016)](http://dx.doi.org/
 
 # Download Options for Caloric Suitability Indices 
 
-The **Caloric Suitability Indices** can be downloaded as a zip file, or individually. They come in GeoTiff format and WGS84 projection. Use the links below to download (or you can fork this Github repository which contains also an IPython notebook that works with the data).
+The **Caloric Suitability Indices** can be downloaded as a zip file, or individually. They come in GeoTiff format and WGS84 projection. Use the links below to download (or you can fork this Github repository which contains also an IPython notebook that works with the data). 
+
+## Files follow a simple format:
+**PeriodMeasure.tif**
+
+where 
+
+Period is 
+
+* *pre1500*: Pre-1500 crop based data
+* *pre15002*: Pre-1500 crop based data excluding Asian crops in Africa
+* *post1500*: Post-1500 crop based data 
+* *dif*: Difference between post-1500 and pre-1500
+* *dif2*: Difference between post-1500 and pre-15002
+
+Measure is
+
+* *Average*, *Maximum* or other statistic of caloric suitability across crops
+* For more complex measures it is composed of two parts
+	* *en* or *inv*: Determines the crop choice used, i.e. calories maximizing (en) or return maximizing (inv)
+	* *cycle*, *return*, *root*: cycles (days), returns (calories/day) and roots (calories^(1/days))
+
+Additionally, the ending of the filename is linked to the inclusion or exclusion of zeros in the ocmputations
+
+* XXX.tif includes all crops in the computations, including crops with zero yield
+* XXX0.tif is like XXX.tif, but drops cells with 0 yield
+* XXXNo0.tif is like XXX.tif, but constructs cell statistics excluding crops with zeros in that cell
+
 
 ## Average and Maximum Caloric Suitability
 
-* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVc3RNd010Z09EQVE): The zipfile contains additional versions not downloadable individually. In particular, it includes CSI excluding Asian crop varieties in Africa pre-1500CE. Additionally it includes rasters for the changes in CSI due to the Columbian Exchange.
+* [All files (zip)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVc3RNd010Z09EQVE&resourcekey=0-wWtJSgqWWssGHckOkgjzaQ): The zipfile contains additional versions not downloadable individually. In particular, it includes CSI excluding Asian crop varieties in Africa pre-1500CE. Additionally it includes rasters for the changes in CSI due to the Columbian Exchange.
 
 * Pre-1500CE:
-    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVeEhsRmdRWkFJX2M)
-    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVcHgxa1EyOEpURUk)
-    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVR2dDUm5fU2lMN2c)
-    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVUzVDTXBST3d4YlE)
+    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVY1N4aHNMTWphZTQ&resourcekey=0-BHnuZSrjVPTznK71ms9LDw)
+    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVVTNWR3N6a25DWlk&resourcekey=0-jVV509iDtkoLEkvl9H5_5w)
+    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVR1BTX0V6eUdmTW8&resourcekey=0-7-oOUj8ldKwWSmnieI4oog)
+    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVQ3FtUTVPcVNGdFk&resourcekey=0-50zFYCz1hj7H55S0VQwStg)
 
 * Pre-1500CE (Exclude Asian Varieties in Africa):
-    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVemtGVHNfTDFzNmc)
-    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVYmtaV1g3X0VTV3c)
-    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVbkg4RjBVWFdLV0E)
-    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVTXlCaThJaUJBWTQ)
+    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVemtGVHNfTDFzNmc&resourcekey=0-nCappUTCjfTUms9rdcgY0g)
+    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVYmtaV1g3X0VTV3c&resourcekey=0-MBxswksJUN97dx1lqhDm6w)
+    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVbkg4RjBVWFdLV0E&resourcekey=0-kUe35gnzU4YX8BNIF5Uaqg)
+    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVTXlCaThJaUJBWTQ&resourcekey=0-Cc0m8YIooV7C7wQQRkc1FA)
 
 * Post-1500CE:
-    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVT05GNGtaZk13S2M)
-    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVcHVJcmgtb09FTXM)
-    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVR2ZDemhYd1hqZms)
-    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVajhjbVcyakFYMHc)
+    * [Average Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVYjJyQVJUUmFkSVE&resourcekey=0-VFDVAhFk6nj5viwtYqA5QQ)
+    * [Average Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVSmd3R3IyeGMzYVE&resourcekey=0-_AFEd2at8A-2QVWzeqYIGw)
+    * [Maximum Calories](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVamdlWEtSSlpKOTA&resourcekey=0-nWBun0NiYSnYDCH_N2tr-w)
+    * [Maximum Calories (No Zeros)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVRC1BRGhGYkZsOFE&resourcekey=0-x-i5uc06MLlZEEQkcfEBvA)
 
 * Country-level Data:
     * [Stata Format](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVMXlCZHo4UnBGbFU)
@@ -53,16 +80,16 @@ The **Caloric Suitability Indices** can be downloaded as a zip file, or individu
 
 ## Caloric Suitability, Growth Cycles and Returns 
 
-* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVR2llMmVjdk9yMFU): Archive contains data on pre- and post-1500CE CSI, growth cycle and daily returns as well as their changes due to the Columbian Exchange. This is the original data used in [Galor and Özak (2016)](http://dx.doi.org/10.1257/aer.20150020). The only difference with the CSI rasters above is the constrain imposed by availability of growth cycle data, which constrains the set of crops.
+* [All files (zip)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVR2llMmVjdk9yMFU&resourcekey=0-ZasZJSidWqI_vKDdSrPEYw): Archive contains data on pre- and post-1500CE CSI, growth cycle and daily returns as well as their changes due to the Columbian Exchange. This is the original data used in [Galor and Özak (2016)](http://dx.doi.org/10.1257/aer.20150020). The only difference with the CSI rasters above is the constrain imposed by availability of growth cycle data, which constrains the set of crops.
 
 ## Plow Potential based on Caloric Suitability
 
-* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVTkFqdlNCdkFJVUU): Archive contains data on pre- and post-1500CE plow positive CSI, plow negative CSI, plow potential based on CSI as well as their changes due to the Columbian Exchange.
+* [All files (zip)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVTkFqdlNCdkFJVUU&resourcekey=0-TVuVNVA7BHe9TMJ-_EZr5g): Archive contains data on pre- and post-1500CE plow positive CSI, plow negative CSI, plow potential based on CSI as well as their changes due to the Columbian Exchange.
 
 
 ## Caloric Suitability for Individual Crops
 
-* [All files (zip)](https://drive.google.com/open?id=0By-h7HPv1NhVOEJHcF92LVE1Z3M): Archive contains data on caloric suitability for each crop under low, medium and high input levels, as well as under rain fed and irrigation.
+* [All files (zip)](https://drive.google.com/uc?export=download&id=0By-h7HPv1NhVOEJHcF92LVE1Z3M&resourcekey=0-uHNJfqPG5MwC3khXGQXs8Q): Archive contains data on caloric suitability for each crop under low, medium and high input levels, as well as under rain fed and irrigation.
 
 If you use the data, please cite: 
 
